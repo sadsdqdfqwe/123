@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+html.light {
+  --color-bg: #ffffff;
+  --color-text: #000000;  
+}
+html.dark {
+  --color-bg: #000000;
+  --color-text: #ffffff;  
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text); 
+}
